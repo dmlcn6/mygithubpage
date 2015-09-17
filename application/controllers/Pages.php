@@ -18,11 +18,11 @@ class Pages extends CI_Controller {
 
             if ($this->form_validation->run() == FALSE)
             {                        
-            	$this->load->view('myform');
+            	$this->load->view('pages/myform');
             }
             else
             {
-               $this->load->view('formsuccess');
+               $this->load->view('pages/formsuccess');
             }
       	  
 		}
