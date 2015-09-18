@@ -9,23 +9,6 @@ class Pages extends CI_Controller {
 			show_404();	
 		}
 		
-		if ($page == 'myform')
-		{
-		
-            $this->load->helper(array('form', 'url'));
-
-            $this->load->library('form_validation');
-
-            if ($this->form_validation->run() == FALSE)
-            {                        
-            	$this->load->view('pages/myform');
-            }
-            else
-            {
-               $this->load->view('pages/formsuccess');
-            }
-      	  
-		}
 		
 		$data['title'] = ucfirst($page); //cap
 
@@ -34,4 +17,6 @@ class Pages extends CI_Controller {
 		$this->load->view('pages/'.$page, $data);
 		$this->load->view('templates/footer', $data);
 	}
+	
+	
 }

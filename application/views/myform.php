@@ -6,7 +6,6 @@
 
 			<h1> Welcome to the Form Validation Exploration</h1>
 			<p> Code Igniter has a Library specifically for validating forms and another library for sanitizing the data items before the are uploaded to your database</p
-			<hr>
 			
 			<?php echo validation_errors(); ?>
 	

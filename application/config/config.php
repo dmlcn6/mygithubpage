@@ -17,7 +17,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | environments.
 |
 */
-$config['base_url'] = 'http://trico.me/mygithubpage/';
+$config['base_url'] = 'http://trico.me/';
 
 /*
 |--------------------------------------------------------------------------
